@@ -1,0 +1,24 @@
+.header
+    display: flex
+    flex-direction: column
+    height: 60px
+    background: url(./img/space_x_logo_bw_centered.png), $almost-black
+    background-repeat: no-repeat
+    background-position: center
+    background-size: 20%
+    justify-content: center
+    align-items: center
+    padding: 15px 40px
+    &__logo
+        text-decoration: none
+        color: $desert
+        padding: 6px 10px
+        align-self: flex-start
+        font-size: 18px
+        letter-spacing: $space
+        text-transform: uppercase
+        border-right: 1px solid transparent
+        transition: .3s all
+        &:hover
+            transform: scale(1.05)
+            border-right: 1px solid $desert

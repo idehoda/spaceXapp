@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  color: #22272b;
+}
+
+img {
+  height: 100%;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  background: #ffffff;
+  padding: 60px 30px;
+}
+
+.info-details {
+  flex: 1;
+}
+
+.footer {
+  padding: 20px 50px;
+  display: flex;
+  background-color: #22272b;
+  justify-content: space-between;
+  text-transform: uppercase;
+  align-items: center;
+  color: #666666;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  background: url(./img/space_x_logo_bw_centered.png), #0f1112;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+}
+.header__logo {
+  text-decoration: none;
+  color: #ccac5b;
+  padding: 6px 10px;
+  align-self: flex-start;
+  font-size: 18px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  border-right: 1px solid transparent;
+  transition: 0.3s all;
+}
+.header__logo:hover {
+  transform: scale(1.05);
+  border-right: 1px solid #ccac5b;
+}
+
+.info-main {
+  flex: 1;
+  padding: 0 40px;
+}
+.info-main__header {
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.info-main__header--pale {
+  color: #a7a9ac;
+  letter-spacing: 12px;
+}
+.info-main__big-header {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.info-main__rocket-logo {
+  height: 300px;
+  margin-top: 40px;
+}
+
+.mission-links {
+  padding: 500px 0px 100px 0px;
+  background: url(./img/rocket.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mission-links__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.mission-links__heading {
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.mission-links__btn {
+  border: 2px solid #ffffff;
+  padding: 10px 46px;
+  border-radius: 36px;
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: 0.5s all;
+}
+.mission-links__btn:hover {
+  background: #ffffff;
+  color: #a7a9ac;
+  transform: scale(1.1);
+}
+
+.social {
+  display: flex;
+  list-style-type: none;
+}
+.social__link {
+  text-decoration: none;
+  color: #a7a9ac;
+  transition: 0.5s all;
+  padding-bottom: 4px;
+  margin: 6px 10px;
+  border-bottom: 1px solid transparent;
+}
+.social__link:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #a7a9ac;
+  transform: scale(1.1);
+}
+
+.specifics {
+  margin-bottom: 40px;
+}
+.specifics__header {
+  border-bottom: 2px solid #ccac5b;
+  color: #ccac5b;
+  padding-bottom: 14px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+}
+.specifics__characteristics {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  color: #a7a9ac;
+}
+.specifics__list {
+  list-style-type: none;
+  border-left: 1px dotted #a7a9ac;
+  padding-right: 15px;
+  flex: 1;
+}
+.specifics__item {
+  line-height: 28px;
+}
+.specifics__item--dark {
+  color: #22272b;
+}
+
+/*# sourceMappingURL=src/App.css.map */
