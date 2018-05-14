@@ -1,8 +1,11 @@
 {
-  "main.css": "static/css/main.0ad1714b.css",
-  "main.css.map": "static/css/main.0ad1714b.css.map",
-  "main.js": "static/js/main.a0b648f8.js",
-  "main.js.map": "static/js/main.a0b648f8.js.map",
+  "main.css": "static/css/main.9938242e.css",
+  "main.css.map": "static/css/main.9938242e.css.map",
+  "main.js": "static/js/main.7a049689.js",
+  "main.js.map": "static/js/main.7a049689.js.map",
+  "static\\media\\arrow_pointer.svg": "static/media/arrow_pointer.0a0fd116.svg",
+  "static\\media\\moon.png": "static/media/moon.f8c6eb36.png",
   "static\\media\\rocket.png": "static/media/rocket.716a55bb.png",
-  "static\\media\\space_x_logo_bw_centered.png": "static/media/space_x_logo_bw_centered.ef38bfb9.png"
+  "static\\media\\space_x_logo_bw_centered.png": "static/media/space_x_logo_bw_centered.ef38bfb9.png",
+  "static\\media\\space_x_logo_bw_centered.svg": "static/media/space_x_logo_bw_centered.39af7747.svg"
 }
