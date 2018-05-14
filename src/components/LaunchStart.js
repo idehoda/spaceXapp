@@ -12,9 +12,8 @@ class LaunchStart extends React.Component {
                 }
             </h4>
         <h1 className="info-main__big-header"> {this.props.launch.rocket.second_stage.payloads[0].payload_id} launch</h1>
-        <h4 className="info-main__header ">
             <Counter from={this.props.launch.launch_date_utc} to={ 0}/> 
-        </h4>
+
         <div className = "info-main__rocket-logo">
             <img src = {this.props.launch.links.mission_patch} alt="tess"/>
         </div>
