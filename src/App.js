@@ -4,6 +4,7 @@ import launchSite from './assets/launch_site.json';
 import rocket from './assets/rocket.json';
 import LaunchDetails from './view/LaunchDetails';
 import Footer from './components/Footer'
+
 import './App.css';
 
 import launches from './assets/launches.json';

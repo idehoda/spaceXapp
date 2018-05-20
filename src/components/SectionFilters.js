@@ -7,7 +7,7 @@ class SectionFilters extends React.Component {
         this.transfer = this.transfer.bind(this);
       }
       transfer(e){  
-          this.props.onChange(e.currentTarget.dataset.name);
+           this.props.onChange(e.currentTarget.dataset.name);
       }  
    render() {
       return (
